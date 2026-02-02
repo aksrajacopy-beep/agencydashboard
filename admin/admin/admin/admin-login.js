@@ -4,7 +4,7 @@ function login() {
   const email = document.getElementById("email").value;
   const password = document.getElementById("password").value;
   const msg = document.getElementById("msg");
-
+  
   msg.innerText = "Checking...";
 
   fetch(BACKEND_URL, {
